@@ -1,0 +1,152 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+    "editor.inlineSuggest.enabled": true,
+    "editor.minimap.enabled": false,
+    "debug.disassemblyView.showSourceCode": false,
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": false,
+        "plaintext": true,
+        "markdown": false
+    },
+    "editor.fontFamily": "Fira Code",
+    "workbench.colorCustomizations": {
+        
+
+        // --------------------------------------------------------------------------------------
+        // Contrast colors & Base colors
+        // --------------------------------------------------------------------------------------
+        // The contrast colors are typically only set for high contrast themes. If set, they add 
+        // an additional border around items across the UI to increase the contrast.
+        // --------------------------------------------------------------------------------------
+
+        // An extra border around active elements to separate them from others for greater contrast.
+        // "contrastActiveBorder": "#939393",
+        
+        // An extra border around elements to separate them from others for greater contrast.
+        "contrastBorder": "#165b2b",
+        
+        // Overall foreground color. This color is only used if not overridden by a component.
+        "foreground": "#6e6e6e",
+
+
+
+
+        // --------------------------------------------------------------------------------------
+        // Editor Groups & Tabs
+        // --------------------------------------------------------------------------------------
+        // Editor Groups are the containers of editors. There can be many editor groups.
+        // A Tab is the container of an editor. Multiple Tabs can be opened in one editor group.
+        // --------------------------------------------------------------------------------------
+
+        // Background color of the editor gutter. The gutter contains the glyph 
+        "editorGutter.background":"#1d241c",
+
+        // Color to separate multiple editor groups from each other.
+        "editorGroup.border":"#127a5c",
+
+        // Border color between editor group header and editor (below breadcrumbs if enabled).
+        "editorGroupHeader.border": "#484848"  ,
+
+        // Background color of an empty editor group.
+        // "editorGroup.emptyBackground": "#ffffff",  
+
+        // Border color of an empty editor group that is focused.
+        // "editorGroup.focusedEmptyBorder": "#ffffff",  
+
+        // Foreground color of text shown over editors when dragging files. This text informs the user that they can hold shift to drop into the editor.
+        // "editorGroup.dropIntoPromptForeground": "#ffffff",  
+
+        // Background color of text shown over editors when dragging files. This text informs the user that they can hold shift to drop into the editor.
+        // "editorGroup.dropIntoPromptBackground": "#ffffff",  
+
+        // Border color of text shown over editors when dragging files. This text informs the user that they can hold shift to drop into the editor.
+        // "editorGroup.dropIntoPromptBorder": "#ffffff",  
+
+        // Background color of the editor pane visible on the left and right side of the centered editor layout.
+        // "editorPane.background": "#ffffff",  
+
+        // Color to separate two editors from each other when shown side by side in an editor group from top to bottom.
+        // "sideBySideEditor.horizontalBorder": "#ffffff",  
+
+        // Color to separate two editors from each other when shown side by side in an editor group from left to right.
+        // "sideBySideEditor.verticalBorder": "#ffffff",  
+
+
+
+        // Active Tab background color in an active group.
+        "tab.activeBackground": "#151515",  
+
+        // Active Tab background color in an inactive editor group.
+        "tab.unfocusedActiveBackground": "#292929",  
+
+        // Active Tab foreground color in an active group.
+        "tab.activeForeground": "#ffffff",  
+
+        // Border to separate Tabs from each other.
+        "tab.border": "#1d1d1d",
+
+        // Bottom border for the active tab.
+        "tab.activeBorder": "#00aaff",
+
+        // Bottom border for the active tab in an inactive editor group.
+        "tab.unfocusedActiveBorder": "#1570a4",  
+
+        // Top border for the active tab.
+        "tab.activeBorderTop": "#656565",  
+
+        // Top border for the active tab in an inactive editor group
+        // "tab.unfocusedActiveBorderTop": "#ffffff",  
+
+        // Border on the right of the last pinned editor to separate from unpinned editors.
+        // "tab.lastPinnedBorder": "#ffffff",  
+
+        // Inactive Tab background color.
+        "tab.inactiveBackground": "#3d3d3d",
+
+        // Inactive Tab background color in an unfocused group
+        // "tab.unfocusedInactiveBackground": "#ffffff",  
+
+        // Inactive Tab foreground color in an active group.
+        "tab.inactiveForeground": "#808080",  
+
+        // Active tab foreground color in an inactive editor group.
+        // "tab.unfocusedActiveForeground": "#ffffff",  
+
+        // Inactive tab foreground color in an inactive editor group.
+        // "tab.unfocusedInactiveForeground": "#ffffff",  
+
+        // Tab background color when hovering
+        // "tab.hoverBackground": "#ffffff",  
+
+        // Tab background color in an unfocused group when hovering
+        // "tab.unfocusedHoverBackground": "#ffffff",  
+
+        // Tab foreground color when hovering
+        // "tab.hoverForeground": "#ffffff" , 
+
+        // Tab foreground color in an unfocused group when hovering
+        // "tab.unfocusedHoverForeground": "#ffffff",  
+
+        // Border to highlight tabs when hovering
+        "tab.hoverBorder": "#aaaaaa",  
+
+        // Border to highlight tabs in an unfocused group when hovering
+        // "tab.unfocusedHoverBorder": "#ffffff",  
+
+        // Border on the top of modified (dirty) active tabs in an active group.
+        // "tab.activeModifiedBorder": "#ffffff",  
+
+        // Border on the top of modified (dirty) inactive tabs in an active group.
+        // "tab.inactiveModifiedBorder": "#ffffff" , 
+
+        // Border on the top of modified (dirty) active tabs in an unfocused group.
+        // "tab.unfocusedActiveModifiedBorder": "#ffffff",  
+
+        // Border on the top of modified (dirty) inactive tabs in an unfocused group.
+        // "tab.unfocusedInactiveModifiedBorder": "#ffffff",  
+
+            
+        }
+    
+}
